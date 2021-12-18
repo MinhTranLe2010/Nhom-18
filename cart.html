@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Nhóm 18 - Thương mại điện tử</title>
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="wrapper container">
+        <div class="logo"><a href="">GROUP 18</a></div>
+        <ul class="nav-list">
+          <div class="top">
+            <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+          </div>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Sản phẩm</a></li>
+          <li>
+            <a href="" class="desktop-item">Cửa hàng <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showMega" />
+            <label for="showMega" class="mobile-item">Cửa hàng <span><i class="fas fa-chevron-down"></i></span></label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="./images/woman.jpg" alt="" />
+                </div>
+                <div class="row">
+                  <header>Gian hàng</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Shop With Background</a></li>
+                    <li><a href="#">Shop Mini Categories</a></li>
+                    <li><a href="#">Shop Only Categories</a></li>
+                    <li><a href="#">Shop Icon Categories</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Bộ lọc</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Sidebar</a></li>
+                    <li><a href="#">Filter Default</a></li>
+                    <li><a href="#">Filter Drawer</a></li>
+                    <li><a href="#">Filter Dropdown</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Bộ lọc sản phẩm</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Layout Zoom</a></li>
+                    <li><a href="#">Layout Sticky</a></li>
+                    <li><a href="#">Layout Sticky 2</a></li>
+                    <li><a href="#">Layout Scroll</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="">Blog</a></li>
+          <li>
+            <a href="" class="desktop-item">Nhà cung cấp <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showdrop1" />
+            <label for="showdrop1" class="mobile-item">Nhà cung cấp <span><i class="fas fa-chevron-down"></i></span></label>
+            <ul class="drop-menu1">
+              <li><a href="">Các cửa hàng đại lý</a></li>
+              <li><a href="">Chi tiết cửa hàng</a></li>
+            </ul>
+          </li>
+  
+          <li>
+            <a href="" class="desktop-item">Page <span><i class="fas fa-chevron-down"></i></span></a>
+            <input type="checkbox" id="showdrop2" />
+            <label for="showdrop2" class="mobile-item">Page <span><i class="fas fa-chevron-down"></i></span></label>
+            <ul class="drop-menu2">
+              <li><a href="">Thông tin</a></li>
+              <li><a href="">Liên lạc</a></li>
+              <li><a href="">Faq</a></li>
+              <li><a href="">Page 404</a></li>
+            </ul>
+          </li>
+          <!-- icons -->
+          <li class="icons">
+            <span>
+              <img src="./images/shoppingBag.svg" alt="" />
+              <small class="count d-flex">0</small>
+            </span>
+            <span><img src="./images/search.svg" alt="" /></span>
+          </li>
+        </ul>
+        <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+      </div>
+    </nav>
+
+    <!-- Cart Items -->
+    <div class="container cart">
+      <table>
+        <tr>
+          <th>Sản phẩm</th>
+          <th>Số Lượng</th>
+          <th>Đơn giá</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product1.jpg" alt="" />
+              <div>
+                <p>Bambi Print Mini Backpack</p>
+                <span>Price: $150.00</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$150.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product2.jpg" alt="" />
+              <div>
+                <p>Calvin Klein Golf Crew Neck Sweat In Blue Marl</p>
+                <span>Price: $150.00</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$150.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product3.jpg" alt="" />
+              <div>
+                <p>Men's Ace Embroidered Sneaker</p>
+                <span>Price: $720.00</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$720.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product4.jpg" alt="" />
+              <div>
+                <p>Dolce Gabbana Vulcano Backpack</p>
+                <span>Price: $995.00</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$995.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product5.jpg" alt="" />
+              <div>
+                <p>ASOS DESIGN Smart Oxford Skinny Suit In Navy</p>
+                <span>Price: $150.00</span>
+                <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>$150.00</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Tổng thu</td>
+            <td>$2165</td>
+          </tr>
+          <tr>
+            <td>Thuế VAT 10%</td>
+            <td>$216.5</td>
+          </tr>
+          <tr>
+            <td>Thành tiền</td>
+            <td>$2381.5</td>
+          </tr>
+        </table>
+        <a href="#" class="checkout btn">Tiến hành thanh toán</a>
+      </div>
+    </div>
+
+     <!-- Footer -->
+     <footer id="footer" class="section footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-center">
+            <h3>EXTRAS</h3>
+            <a href="#">Nhãn hiệu</a>
+            <a href="#">Mã giảm giá</a>
+            <a href="#">Chi nhánh</a>
+            <a href="#">Sản phẩm đặc biệt</a>
+            <a href="#">Địa chỉ</a>
+          </div>
+          <div class="footer-center">
+            <h3>INFORMATION</h3>
+            <a href="#">About Us</a>
+            <a href="#">Chính sách bảo mật</a>
+            <a href="#">Điều khoản & Điều kiện</a>
+            <a href="#">Liên hệ với chúng tôi</a>
+            <a href="#">Địa chỉ</a>
+          </div>
+          <div class="footer-center">
+            <h3>MY ACCOUNT</h3>
+            <a href="#">Tài khoản của tôi</a>
+            <a href="#">Lịch sử đặt hàng</a>
+            <a href="#">Giỏ hàng</a>
+            <a href="#">Bản tin</a>
+            <a href="#">Thanh toán</a>
+          </div>
+          <div class="footer-center">
+            <h3>CONTACT US</h3>
+            <div>
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              182 Lê Duẩn, Trường Thi, Thành phố Vinh, Nghệ An
+            </div>
+            <div>
+              <span>
+                <i class="far fa-envelope"></i>
+              </span>
+              anhminhht1997@gmail.com
+            </div>
+            <div>
+              <span>
+                <i class="fas fa-phone"></i>
+              </span>
+              0373418906
+            </div>
+            <div class="payment-methods">
+              <img src="./images/payment.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+  <!-- End Footer -->
+
+    <!-- Custom Scripts -->
+    <script src="./js/products.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
